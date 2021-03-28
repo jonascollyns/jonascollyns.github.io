@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    background-color: #e6e6e6;
+}
+#logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #c77ead;
+    border-bottom: 5px solid #cf85b5;
+}
+.links {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+#abo_btn {
+    grid-column: 1/5; 
+}
+#ill_btn {
+    grid-column: 2/5; 
+}
+#pho_btn {
+    grid-column: 3/5; 
+}
+#con_btn {
+    grid-column: 4/5; 
+}
