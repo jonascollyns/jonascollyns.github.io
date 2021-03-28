@@ -10,19 +10,26 @@ body {
     border-bottom: 5px solid #cf85b5;
 }
 .links {
-    text-align: center;
+    height: auto;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 #abo_btn {
+    width: auto;
+    padding-left: 20px;
     grid-column: 1/5; 
 }
 #ill_btn {
+    width: auto;
     grid-column: 2/5; 
 }
 #pho_btn {
+    width: auto;
     grid-column: 3/5; 
 }
 #con_btn {
+    padding-right: 20px;
+    width: auto;
     grid-column: 4/5; 
 }
