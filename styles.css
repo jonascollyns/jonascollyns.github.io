@@ -1,51 +1,29 @@
 body {
     margin: 0px;
     background-color: #e6e6e6;
-} 
+}
 #logo {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    background-color: #f4b5f1;
-    border-bottom: 5px solid #f5c5f3;
+    background-color: #c77ead;
+    border-bottom: 5px solid #cf85b5;
 }
 .links {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 #abo_btn {
-    text-align: center;
-    color: green;
-    padding-top: 15px;
     padding-left: 20px;
+    grid-column: 1/5; 
 }
 #ill_btn {
-    text-align: center;
-    padding-top: 15px;
-    
+    grid-column: 2/5; 
 }
 #pho_btn {
-    text-align: center;
-    padding-top: 15px;
+    grid-column: 3/5; 
 }
 #con_btn {
-    text-align: center;
-    padding-top: 15px;
     padding-right: 20px;
-}
-.aboutmetext {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-}
-h1 {
-    font-family: 'Architects Daughter', cursive;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-}
-.aboutmetext  p{
-    font-family: 'Architects Daughter', cursive;
-    font-size: 1.3em;
-    text-align: center;
-    grid-column: 2;
+    grid-column: 4/5; 
 }
