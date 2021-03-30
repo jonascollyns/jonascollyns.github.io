@@ -72,6 +72,12 @@ h1 {
     font-weight: bold;
     color: #f4b5f1;
 }
+#phothreegrid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
+}
 #contact {
     text-align: center;
     color: black;
