@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    width: auto;
     background-color: #e6e6e6;
     font-family: 'Architects Daughter', cursive;
     font-size: 1.3em;
@@ -15,28 +16,16 @@ body {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-#abo_btn {
-    color: green;
-    padding-top: 15px;
-    padding-left: 20px;
-}
-#ill_btn {
     padding-top: 15px;
 }
-#pho_btn {
-    padding-top: 15px;
-}
-#con_btn {
-    padding-top: 15px;
-    padding-right: 20px;
+.placement {
+    text-align: center;
 }
 .aboutmetext {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
 }
 h1 {
-    font-family: 'Architects Daughter', cursive;
     font-weight: bold;
     font-size: 3em;
     text-align: center;
@@ -46,26 +35,61 @@ h1 {
     grid-column: 2;
 }
 #illustration {
-    height: auto;
     text-align: center;
 }
-#grid {
-    width: 500px;
-    height: 300px;
-    background-color: green;
+.dumbdiv {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.dumbdiv p {
+    grid-column: 2;
+}
+#illthreegrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-#3by3 .c1 {
-    grid-column: 1/4;
+#illfourgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-#3by3 .c2 {
-    grid-column: 2/4;
+#photography {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
 }
-#3by3 .c3 {
-    
+#photography h1 {
+    text-align: center;
+    grid-column: 2;
 }
-
-
-
+#photography p {
+    text-align: center;
+    grid-column: 2;
+}
+#photography a {
+    font-weight: bold;
+    color: #f4b5f1;
+}
+#illustration a {
+    font-weight: bold;
+    color: #f4b5f1;
+}
+#contact {
+    text-align: center;
+    color: black;
+}
+.abotext {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.abotext p {
+    grid-column: 2;
+}
+#contactbuttons {
+    text-align: center;
+}
+#botmargin {
+    padding-left: 10px;
+    height: 15px;
+    background-color: #f4b5f1;
+    border-top: 5px solid #f5c5f3;
+}
 
